@@ -1,18 +1,37 @@
-* {
+/* {
   box-sizing: border-box;
   border: 1px solid red;
-}
+}*/
 
 body{
   margin: 0;
 }
+.sidebar{
+  float:left;
+  display:block;
+  width:215px;
+  margin-left:240px;
+}
+.icons{
+  width:60px;
 
-.Main{
+}
+hr{
+  width:610px;
+}
+.container{
+  float:right;
+
+
+}
+.recipe1, .recipe2, .recipe3{
+  margin-left:396px;
+  margin-right:196px;
+  border:transparent;
+  border-radius:5px;
   background-color:#3594cb;
   color: white;
-  }
-
-p{
   width:678px;
-  height:329px;
+  height:auto;
+  font-family:Lato Calibri Arial sans-serif;
 }
