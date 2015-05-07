@@ -1,7 +1,7 @@
-/*{
+*{
   box-sizing: border-box;
   border: 1px solid red;
-}*/
+}
 
 body{
   margin: 0 auto;
@@ -18,29 +18,39 @@ body{
   font-size:24px;
   width:104px;
 }
+.dates{
+
+}
 
 .content{
   width:900px;
   margin: 0 auto;
-
 }
+
 .icons{
   width:60px;
   display:block;
-
 }
+
 hr{
   width:610px;
   border:none;
   height:1px;
   background-color:white;
 }
-.container, .sidebar{
+
+.sidebar{
   display:inline-block;
+  position:relative;
+
 }
+
+.recipeWrapper{
+  margin-left:222px;
+}
+
 .recipe1, .recipe2, .recipe3{
-  margin-left:413px;
-  margin-right:174px;
+
   border:transparent;
   border-radius:5px;
   background-color:#6cbfee;
